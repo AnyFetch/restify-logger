@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AnyFetch/restify-logger/issues"
   },
-  "homepage": "https://github.com/AnyFetch/restify-logger"
+  "homepage": "https://github.com/AnyFetch/restify-logger",
+  "dependencies": {
+    "morgan": "^1.3.2"
+  }
 }
