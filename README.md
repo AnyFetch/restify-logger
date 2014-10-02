@@ -22,13 +22,17 @@ var logger = require('restify-logger');
  * Some code
  */
 
-app.use(logger(function(res, req) {
+var filter = function(res, req) {
     // Don't log on test (return false)
     return process.env.NODE_ENV !== "test";
-}, function(res, req) {
+};
+
+var display = function(res, req) {
     // Display email
     return req.user.email;
-}));
+};
+
+app.use(filter, display);
 
 /*
  * Some other code
