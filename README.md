@@ -32,7 +32,7 @@ var display = function(res, req) {
     return req.user.email;
 };
 
-app.use(filter, display);
+app.use(logger(filter, display));
 
 /*
  * Some other code
