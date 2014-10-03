@@ -12,9 +12,13 @@
   },
   "keywords": [
     "restify",
-    "logger"
+    "logger",
+    "morgan"
   ],
   "author": "Quentin Buathier <quentin.buathier@epitech.eu>",
+  "contributors": [
+    "Antoine Bolvy <antoine.bolvy@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AnyFetch/restify-logger/issues"
