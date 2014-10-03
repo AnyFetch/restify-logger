@@ -14,10 +14,6 @@ app.use(logger('custom', {
     return process.env.NODE_ENV === "test" || req.method === "OPTIONS" || req.url === "/status";
   }
 }));
-
-/*
- * Some other code
- */
 ```
 
 This will display:
@@ -46,6 +42,11 @@ var logger = require('restify-logger');
 // morgan syntax
 logger.format('my-simple-format', ':method :url :status')
 app.use(logger('my-simple-format'));
+```
+
+This will display:
+```
+DELETE /user/542d5154d0db17c03ecd1499 204
 ```
 
 
