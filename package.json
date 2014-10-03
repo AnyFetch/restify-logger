@@ -1,6 +1,6 @@
 {
   "name": "restify-logger",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "A custom logger for restify",
   "main": "lib/index.js",
   "scripts": {
@@ -12,9 +12,13 @@
   },
   "keywords": [
     "restify",
-    "logger"
+    "logger",
+    "morgan"
   ],
   "author": "Quentin Buathier <quentin.buathier@epitech.eu>",
+  "contributors": [
+    "Antoine Bolvy <antoine.bolvy@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AnyFetch/restify-logger/issues"
