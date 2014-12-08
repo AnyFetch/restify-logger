@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/AnyFetch/restify-logger",
   "dependencies": {
-    "morgan": "^1.3.2"
+    "morgan": "^1.5.0"
   }
 }
